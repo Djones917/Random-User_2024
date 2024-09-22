@@ -5,4 +5,8 @@ function fetchUser() {
   
 }
 
+function displayUser(user) {
+  
+}
+
 fetchUser();
