@@ -7,7 +7,7 @@ function fetchUser() {
 
 function displayUser(user) {
   if (user.gender === 'female') {
-     document.
+     document.body.style.backgroundColor = 'purple';
   }
 }
 
