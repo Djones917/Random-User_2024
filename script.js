@@ -6,7 +6,10 @@ function fetchUser() {
 }
 
 function displayUser(user) {
-  
+  if (user.gender === 'female') {
+     document.
+  }
 }
+
 
 fetchUser();
