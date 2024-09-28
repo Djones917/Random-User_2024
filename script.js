@@ -6,8 +6,12 @@ function fetchUser() {
 }
 
 function displayUser(user) {
+  const userDisplay = document.querySelector('#user');
+
   if (user.gender === 'female') {
      document.body.style.backgroundColor = 'purple';
+  } else {
+    document.body.style.backgroundColor = 'royalblue';
   }
 }
 
