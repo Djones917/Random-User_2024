@@ -13,6 +13,8 @@ function displayUser(user) {
   } else {
     document.body.style.backgroundColor = 'royalblue';
   }
+
+  userDisplay.innerHTML = '';
 }
 
 
